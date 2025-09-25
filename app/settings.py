@@ -25,6 +25,7 @@ class Settings(BaseAppSettings):
     """Конфигурация приложения"""
 
     service_name: str = "AI_Chat"
+    api_version: str = '0.0.1'
 
     # GigaChat Credentials
     gigachat_api_key: str = ""
